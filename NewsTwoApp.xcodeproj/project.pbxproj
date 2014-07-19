@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74DBBD8E197AA77500615FCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DBBD8D197AA77500615FCE /* Foundation.framework */; };
+		74DBBD90197AA77500615FCE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DBBD8F197AA77500615FCE /* CoreGraphics.framework */; };
+		74DBBD92197AA77500615FCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DBBD91197AA77500615FCE /* UIKit.framework */; };
+		74DBBD98197AA77500615FCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74DBBD96197AA77500615FCE /* InfoPlist.strings */; };
+		74DBBD9A197AA77500615FCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DBBD99197AA77500615FCE /* main.m */; };
+		74DBBD9E197AA77500615FCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DBBD9D197AA77500615FCE /* AppDelegate.m */; };
+		74DBBDA0197AA77500615FCE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74DBBD9F197AA77500615FCE /* Images.xcassets */; };
+		74DBBDA7197AA77500615FCE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DBBDA6197AA77500615FCE /* XCTest.framework */; };
+		74DBBDA8197AA77500615FCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DBBD8D197AA77500615FCE /* Foundation.framework */; };
+		74DBBDA9197AA77500615FCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DBBD91197AA77500615FCE /* UIKit.framework */; };
+		74DBBDB1197AA77500615FCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74DBBDAF197AA77500615FCE /* InfoPlist.strings */; };
+		74DBBDB3197AA77500615FCE /* NewsTwoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DBBDB2197AA77500615FCE /* NewsTwoAppTests.m */; };
+		74DBBDC2197AB08400615FCE /* SliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DBBDC1197AB08400615FCE /* SliderViewController.m */; };
+		74DBBDC9197AB19C00615FCE /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DBBDC4197AB19C00615FCE /* LeftViewController.m */; };
+		74DBBDCA197AB19C00615FCE /* MainAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DBBDC6197AB19C00615FCE /* MainAppViewController.m */; };
+		74DBBDCB197AB19C00615FCE /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DBBDC8197AB19C00615FCE /* RightViewController.m */; };
+		74DBBDCF197AB1AF00615FCE /* head1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74DBBDCC197AB1AF00615FCE /* head1.jpg */; };
+		74DBBDD0197AB1AF00615FCE /* head2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74DBBDCD197AB1AF00615FCE /* head2.jpg */; };
+		74DBBDD1197AB1AF00615FCE /* sidebar_bg@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 74DBBDCE197AB1AF00615FCE /* sidebar_bg@2x.jpg */; };
+		74DBBDD3197AB22D00615FCE /* leftside_shadow_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DBBDD2197AB22D00615FCE /* leftside_shadow_bg@2x.png */; };
+		74DBBDD6197AB25B00615FCE /* QHMainGestureRecognizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DBBDD5197AB25B00615FCE /* QHMainGestureRecognizerViewController.m */; };
+		74DBBDD9197AB7CE00615FCE /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DBBDD8197AB7CE00615FCE /* SubViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74DBBDAA197AA77500615FCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74DBBD82197AA77500615FCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74DBBD89197AA77500615FCE;
+			remoteInfo = NewsTwoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74DBBD8A197AA77500615FCE /* NewsTwoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsTwoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DBBD8D197AA77500615FCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		74DBBD8F197AA77500615FCE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		74DBBD91197AA77500615FCE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		74DBBD95197AA77500615FCE /* NewsTwoApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NewsTwoApp-Info.plist"; sourceTree = "<group>"; };
+		74DBBD97197AA77500615FCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		74DBBD99197AA77500615FCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74DBBD9B197AA77500615FCE /* NewsTwoApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewsTwoApp-Prefix.pch"; sourceTree = "<group>"; };
+		74DBBD9C197AA77500615FCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		74DBBD9D197AA77500615FCE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		74DBBD9F197AA77500615FCE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		74DBBDA5197AA77500615FCE /* NewsTwoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsTwoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DBBDA6197AA77500615FCE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		74DBBDAE197AA77500615FCE /* NewsTwoAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NewsTwoAppTests-Info.plist"; sourceTree = "<group>"; };
+		74DBBDB0197AA77500615FCE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		74DBBDB2197AA77500615FCE /* NewsTwoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsTwoAppTests.m; sourceTree = "<group>"; };
+		74DBBDC0197AB08400615FCE /* SliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderViewController.h; sourceTree = "<group>"; };
+		74DBBDC1197AB08400615FCE /* SliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderViewController.m; sourceTree = "<group>"; };
+		74DBBDC3197AB19C00615FCE /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		74DBBDC4197AB19C00615FCE /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		74DBBDC5197AB19C00615FCE /* MainAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainAppViewController.h; sourceTree = "<group>"; };
+		74DBBDC6197AB19C00615FCE /* MainAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainAppViewController.m; sourceTree = "<group>"; };
+		74DBBDC7197AB19C00615FCE /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		74DBBDC8197AB19C00615FCE /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		74DBBDCC197AB1AF00615FCE /* head1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head1.jpg; sourceTree = "<group>"; };
+		74DBBDCD197AB1AF00615FCE /* head2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head2.jpg; sourceTree = "<group>"; };
+		74DBBDCE197AB1AF00615FCE /* sidebar_bg@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sidebar_bg@2x.jpg"; sourceTree = "<group>"; };
+		74DBBDD2197AB22D00615FCE /* leftside_shadow_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leftside_shadow_bg@2x.png"; sourceTree = "<group>"; };
+		74DBBDD4197AB25B00615FCE /* QHMainGestureRecognizerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHMainGestureRecognizerViewController.h; sourceTree = "<group>"; };
+		74DBBDD5197AB25B00615FCE /* QHMainGestureRecognizerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHMainGestureRecognizerViewController.m; sourceTree = "<group>"; };
+		74DBBDD7197AB7CE00615FCE /* SubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
+		74DBBDD8197AB7CE00615FCE /* SubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74DBBD87197AA77500615FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DBBD90197AA77500615FCE /* CoreGraphics.framework in Frameworks */,
+				74DBBD92197AA77500615FCE /* UIKit.framework in Frameworks */,
+				74DBBD8E197AA77500615FCE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DBBDA2197AA77500615FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DBBDA7197AA77500615FCE /* XCTest.framework in Frameworks */,
+				74DBBDA9197AA77500615FCE /* UIKit.framework in Frameworks */,
+				74DBBDA8197AA77500615FCE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74DBBD81197AA77500615FCE = {
+			isa = PBXGroup;
+			children = (
+				74DBBD93197AA77500615FCE /* NewsTwoApp */,
+				74DBBDAC197AA77500615FCE /* NewsTwoAppTests */,
+				74DBBD8C197AA77500615FCE /* Frameworks */,
+				74DBBD8B197AA77500615FCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74DBBD8B197AA77500615FCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74DBBD8A197AA77500615FCE /* NewsTwoApp.app */,
+				74DBBDA5197AA77500615FCE /* NewsTwoAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74DBBD8C197AA77500615FCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74DBBD8D197AA77500615FCE /* Foundation.framework */,
+				74DBBD8F197AA77500615FCE /* CoreGraphics.framework */,
+				74DBBD91197AA77500615FCE /* UIKit.framework */,
+				74DBBDA6197AA77500615FCE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74DBBD93197AA77500615FCE /* NewsTwoApp */ = {
+			isa = PBXGroup;
+			children = (
+				74DBBDBF197AB08400615FCE /* SliderViewController */,
+				74DBBD9C197AA77500615FCE /* AppDelegate.h */,
+				74DBBD9D197AA77500615FCE /* AppDelegate.m */,
+				74DBBDD4197AB25B00615FCE /* QHMainGestureRecognizerViewController.h */,
+				74DBBDD5197AB25B00615FCE /* QHMainGestureRecognizerViewController.m */,
+				74DBBDC3197AB19C00615FCE /* LeftViewController.h */,
+				74DBBDC4197AB19C00615FCE /* LeftViewController.m */,
+				74DBBDC5197AB19C00615FCE /* MainAppViewController.h */,
+				74DBBDC6197AB19C00615FCE /* MainAppViewController.m */,
+				74DBBDC7197AB19C00615FCE /* RightViewController.h */,
+				74DBBDC8197AB19C00615FCE /* RightViewController.m */,
+				74DBBDD7197AB7CE00615FCE /* SubViewController.h */,
+				74DBBDD8197AB7CE00615FCE /* SubViewController.m */,
+				74DBBD9F197AA77500615FCE /* Images.xcassets */,
+				74DBBD94197AA77500615FCE /* Supporting Files */,
+			);
+			path = NewsTwoApp;
+			sourceTree = "<group>";
+		};
+		74DBBD94197AA77500615FCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74DBBDD2197AB22D00615FCE /* leftside_shadow_bg@2x.png */,
+				74DBBDCC197AB1AF00615FCE /* head1.jpg */,
+				74DBBDCD197AB1AF00615FCE /* head2.jpg */,
+				74DBBDCE197AB1AF00615FCE /* sidebar_bg@2x.jpg */,
+				74DBBD95197AA77500615FCE /* NewsTwoApp-Info.plist */,
+				74DBBD96197AA77500615FCE /* InfoPlist.strings */,
+				74DBBD99197AA77500615FCE /* main.m */,
+				74DBBD9B197AA77500615FCE /* NewsTwoApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74DBBDAC197AA77500615FCE /* NewsTwoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				74DBBDB2197AA77500615FCE /* NewsTwoAppTests.m */,
+				74DBBDAD197AA77500615FCE /* Supporting Files */,
+			);
+			path = NewsTwoAppTests;
+			sourceTree = "<group>";
+		};
+		74DBBDAD197AA77500615FCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74DBBDAE197AA77500615FCE /* NewsTwoAppTests-Info.plist */,
+				74DBBDAF197AA77500615FCE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74DBBDBF197AB08400615FCE /* SliderViewController */ = {
+			isa = PBXGroup;
+			children = (
+				74DBBDC0197AB08400615FCE /* SliderViewController.h */,
+				74DBBDC1197AB08400615FCE /* SliderViewController.m */,
+			);
+			path = SliderViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74DBBD89197AA77500615FCE /* NewsTwoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74DBBDB6197AA77500615FCE /* Build configuration list for PBXNativeTarget "NewsTwoApp" */;
+			buildPhases = (
+				74DBBD86197AA77500615FCE /* Sources */,
+				74DBBD87197AA77500615FCE /* Frameworks */,
+				74DBBD88197AA77500615FCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewsTwoApp;
+			productName = NewsTwoApp;
+			productReference = 74DBBD8A197AA77500615FCE /* NewsTwoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74DBBDA4197AA77500615FCE /* NewsTwoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74DBBDB9197AA77500615FCE /* Build configuration list for PBXNativeTarget "NewsTwoAppTests" */;
+			buildPhases = (
+				74DBBDA1197AA77500615FCE /* Sources */,
+				74DBBDA2197AA77500615FCE /* Frameworks */,
+				74DBBDA3197AA77500615FCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74DBBDAB197AA77500615FCE /* PBXTargetDependency */,
+			);
+			name = NewsTwoAppTests;
+			productName = NewsTwoAppTests;
+			productReference = 74DBBDA5197AA77500615FCE /* NewsTwoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74DBBD82197AA77500615FCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = chen;
+				TargetAttributes = {
+					74DBBDA4197AA77500615FCE = {
+						TestTargetID = 74DBBD89197AA77500615FCE;
+					};
+				};
+			};
+			buildConfigurationList = 74DBBD85197AA77500615FCE /* Build configuration list for PBXProject "NewsTwoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 74DBBD81197AA77500615FCE;
+			productRefGroup = 74DBBD8B197AA77500615FCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74DBBD89197AA77500615FCE /* NewsTwoApp */,
+				74DBBDA4197AA77500615FCE /* NewsTwoAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74DBBD88197AA77500615FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DBBDD0197AB1AF00615FCE /* head2.jpg in Resources */,
+				74DBBDD3197AB22D00615FCE /* leftside_shadow_bg@2x.png in Resources */,
+				74DBBD98197AA77500615FCE /* InfoPlist.strings in Resources */,
+				74DBBDD1197AB1AF00615FCE /* sidebar_bg@2x.jpg in Resources */,
+				74DBBDCF197AB1AF00615FCE /* head1.jpg in Resources */,
+				74DBBDA0197AA77500615FCE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DBBDA3197AA77500615FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DBBDB1197AA77500615FCE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74DBBD86197AA77500615FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DBBDCB197AB19C00615FCE /* RightViewController.m in Sources */,
+				74DBBD9E197AA77500615FCE /* AppDelegate.m in Sources */,
+				74DBBDC9197AB19C00615FCE /* LeftViewController.m in Sources */,
+				74DBBDCA197AB19C00615FCE /* MainAppViewController.m in Sources */,
+				74DBBD9A197AA77500615FCE /* main.m in Sources */,
+				74DBBDD6197AB25B00615FCE /* QHMainGestureRecognizerViewController.m in Sources */,
+				74DBBDC2197AB08400615FCE /* SliderViewController.m in Sources */,
+				74DBBDD9197AB7CE00615FCE /* SubViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DBBDA1197AA77500615FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DBBDB3197AA77500615FCE /* NewsTwoAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74DBBDAB197AA77500615FCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74DBBD89197AA77500615FCE /* NewsTwoApp */;
+			targetProxy = 74DBBDAA197AA77500615FCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74DBBD96197AA77500615FCE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74DBBD97197AA77500615FCE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		74DBBDAF197AA77500615FCE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74DBBDB0197AA77500615FCE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74DBBDB4197AA77500615FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74DBBDB5197AA77500615FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74DBBDB7197AA77500615FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewsTwoApp/NewsTwoApp-Prefix.pch";
+				INFOPLIST_FILE = "NewsTwoApp/NewsTwoApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		74DBBDB8197AA77500615FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewsTwoApp/NewsTwoApp-Prefix.pch";
+				INFOPLIST_FILE = "NewsTwoApp/NewsTwoApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		74DBBDBA197AA77500615FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NewsTwoApp.app/NewsTwoApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewsTwoApp/NewsTwoApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NewsTwoAppTests/NewsTwoAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		74DBBDBB197AA77500615FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NewsTwoApp.app/NewsTwoApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewsTwoApp/NewsTwoApp-Prefix.pch";
+				INFOPLIST_FILE = "NewsTwoAppTests/NewsTwoAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74DBBD85197AA77500615FCE /* Build configuration list for PBXProject "NewsTwoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DBBDB4197AA77500615FCE /* Debug */,
+				74DBBDB5197AA77500615FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74DBBDB6197AA77500615FCE /* Build configuration list for PBXNativeTarget "NewsTwoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DBBDB7197AA77500615FCE /* Debug */,
+				74DBBDB8197AA77500615FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		74DBBDB9197AA77500615FCE /* Build configuration list for PBXNativeTarget "NewsTwoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DBBDBA197AA77500615FCE /* Debug */,
+				74DBBDBB197AA77500615FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74DBBD82197AA77500615FCE /* Project object */;
+}
