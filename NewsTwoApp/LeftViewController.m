@@ -8,6 +8,8 @@
 
 #import "LeftViewController.h"
 
+#import "SliderViewController.h"
+
 @interface LeftViewController ()
 {
     NSArray *_arData;
@@ -26,6 +28,14 @@
     [imageBgV setImage:[UIImage imageNamed:@"sidebar_bg.jpg"]];
     [self.view addSubview:imageBgV];
     
+    UIButton *backbtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [backbtn setFrame:CGRectMake(20, 40, 60, 30)];
+    [backbtn setTitle:@"返回" forState:UIControlStateNormal];
+    [backbtn setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal];
+    [backbtn setTitleColor:[UIColor greenColor] forState:UIControlStateHighlighted];
+    [backbtn addTarget:self action:@selector(backAction:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:backbtn];
+    
     __block float h = self.view.frame.size.height*0.7/[_arData count];
     __block float y = 0.15*self.view.frame.size.height;
     [_arData enumerateObjectsUsingBlock:^(NSString *obj, NSUInteger idx, BOOL *stop)
@@ -41,6 +51,15 @@
         [self.view addSubview:listV];
         y += h;
     }];
+}
+
+- (void)backAction:(UIButton *)btn
+{
+    //下面是两种调用方式，其实原理是一样的，都是调用SliderViewController的接口closeSideBar
+    //1
+    [[SliderViewController sharedSliderController] closeSideBar];
+    //2
+//    [((SliderViewController *)[[[self.view superview] superview] nextResponder]) closeSideBar];
 }
 
 @end

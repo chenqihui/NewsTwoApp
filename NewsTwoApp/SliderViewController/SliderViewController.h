@@ -41,5 +41,6 @@
 - (void)showRightViewController;
 
 - (void)moveViewWithGesture:(UIPanGestureRecognizer *)panGes;
+- (void)closeSideBar;
 
 @end
