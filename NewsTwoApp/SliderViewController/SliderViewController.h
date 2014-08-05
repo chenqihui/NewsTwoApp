@@ -42,5 +42,6 @@
 
 - (void)moveViewWithGesture:(UIPanGestureRecognizer *)panGes;
 - (void)closeSideBar;
+- (void)closeSideBarWithAnimate:(BOOL)bAnimate complete:(void(^)(BOOL finished))complete;
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74D99E371991292900A1CC24 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 74D99E361991292900A1CC24 /* README.md */; };
 		74DBBD8E197AA77500615FCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DBBD8D197AA77500615FCE /* Foundation.framework */; };
 		74DBBD90197AA77500615FCE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DBBD8F197AA77500615FCE /* CoreGraphics.framework */; };
 		74DBBD92197AA77500615FCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DBBD91197AA77500615FCE /* UIKit.framework */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		74D99E361991292900A1CC24 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 		74DBBD8A197AA77500615FCE /* NewsTwoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsTwoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74DBBD8D197AA77500615FCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		74DBBD8F197AA77500615FCE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -155,6 +157,7 @@
 		74DBBD94197AA77500615FCE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				74D99E361991292900A1CC24 /* README.md */,
 				74DBBDD2197AB22D00615FCE /* leftside_shadow_bg@2x.png */,
 				74DBBDCC197AB1AF00615FCE /* head1.jpg */,
 				74DBBDCD197AB1AF00615FCE /* head2.jpg */,
@@ -272,6 +275,7 @@
 				74DBBDD0197AB1AF00615FCE /* head2.jpg in Resources */,
 				74DBBDD3197AB22D00615FCE /* leftside_shadow_bg@2x.png in Resources */,
 				74DBBD98197AA77500615FCE /* InfoPlist.strings in Resources */,
+				74D99E371991292900A1CC24 /* README.md in Resources */,
 				74DBBDD1197AB1AF00615FCE /* sidebar_bg@2x.jpg in Resources */,
 				74DBBDCF197AB1AF00615FCE /* head1.jpg in Resources */,
 				74DBBDA0197AA77500615FCE /* Images.xcassets in Resources */,
@@ -497,6 +501,7 @@
 				74DBBDB8197AA77500615FCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74DBBDB9197AA77500615FCE /* Build configuration list for PBXNativeTarget "NewsTwoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +510,7 @@
 				74DBBDBB197AA77500615FCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

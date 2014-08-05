@@ -9,6 +9,10 @@ beta0.2
 
 1、添加了回收抽屉的接口
 
+2、增加下面的在左菜单跳转新页面时回收抽屉的API
+
+- (void)closeSideBarWithAnimate:(BOOL)bAnimate complete:(void(^)(BOOL finished))complete;
+
 ---------------------------华丽丽的分割线------------------------------
 
 beta 0.1

@@ -9,6 +9,7 @@
 #import "LeftViewController.h"
 
 #import "SliderViewController.h"
+#import "SubViewController.h"
 
 @interface LeftViewController ()
 {
@@ -36,6 +37,14 @@
     [backbtn addTarget:self action:@selector(backAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:backbtn];
     
+    UIButton *toNewViewbtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [toNewViewbtn setFrame:CGRectMake(CGRectGetMaxX(backbtn.frame) + 10, 40, 60, 30)];
+    [toNewViewbtn setTitle:@"新页面" forState:UIControlStateNormal];
+    [toNewViewbtn setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal];
+    [toNewViewbtn setTitleColor:[UIColor greenColor] forState:UIControlStateHighlighted];
+    [toNewViewbtn addTarget:self action:@selector(toNewViewbtn:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:toNewViewbtn];
+    
     __block float h = self.view.frame.size.height*0.7/[_arData count];
     __block float y = 0.15*self.view.frame.size.height;
     [_arData enumerateObjectsUsingBlock:^(NSString *obj, NSUInteger idx, BOOL *stop)
@@ -60,6 +69,16 @@
     [[SliderViewController sharedSliderController] closeSideBar];
     //2
 //    [((SliderViewController *)[[[self.view superview] superview] nextResponder]) closeSideBar];
+}
+
+- (void)toNewViewbtn:(UIButton *)btn
+{
+    [[SliderViewController sharedSliderController] closeSideBarWithAnimate:YES complete:^(BOOL finished)
+    {
+        SubViewController *subViewController = [[SubViewController alloc] initWithFrame:[UIScreen mainScreen].bounds andSignal:@""];
+        [[QHMainGestureRecognizerViewController getMainGRViewCtrl] addViewController2Main:subViewController];
+        subViewController.szSignal = @"新页面";
+    }];
 }
 
 @end

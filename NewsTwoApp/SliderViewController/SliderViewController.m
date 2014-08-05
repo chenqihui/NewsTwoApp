@@ -254,17 +254,34 @@ typedef NS_ENUM(NSInteger, RMoveDirection) {
 
 - (void)closeSideBar
 {
+    [self closeSideBarWithAnimate:YES complete:^(BOOL finished) {}];
+}
+
+- (void)closeSideBarWithAnimate:(BOOL)bAnimate complete:(void(^)(BOOL finished))complete
+{
     CGAffineTransform oriT = CGAffineTransformIdentity;
-    [UIView animateWithDuration:_mainContentView.transform.tx==_LeftSContentOffset?_LeftSCloseDuration:_RightSCloseDuration
-                     animations:^{
-                         _mainContentView.transform = oriT;
-                     }
-                     completion:^(BOOL finished) {
-                         _tapGestureRec.enabled = NO;
-                         showingRight=NO;
-                         showingLeft=NO;
-                         _MainVC.view.userInteractionEnabled=YES;
-                     }];
+    if (bAnimate)
+    {
+        [UIView animateWithDuration:_mainContentView.transform.tx==_LeftSContentOffset?_LeftSCloseDuration:_RightSCloseDuration
+                         animations:^{
+                             _mainContentView.transform = oriT;
+                         }
+                         completion:^(BOOL finished) {
+                             _tapGestureRec.enabled = NO;
+                             showingRight=NO;
+                             showingLeft=NO;
+                             _MainVC.view.userInteractionEnabled=YES;
+                             complete(finished);
+                         }];
+    }else
+    {
+        _mainContentView.transform = oriT;
+        _tapGestureRec.enabled = NO;
+        showingRight=NO;
+        showingLeft=NO;
+        _MainVC.view.userInteractionEnabled=YES;
+        complete(YES);
+    }
 }
 
 - (void)moveViewWithGesture:(UIPanGestureRecognizer *)panGes
