@@ -10,6 +10,7 @@
 
 #import "SliderViewController.h"
 #import "SubViewController.h"
+#import "TouchPropagatedScrollView.h"
 
 #define MENU_HEIGHT 25
 #define MENU_BUTTON_WIDTH  60
@@ -20,7 +21,7 @@
     UIView *_topNaviV;
     UIScrollView *_scrollV;
     
-    UIScrollView *_navScrollV;
+    TouchPropagatedScrollView *_navScrollV;
     UIView *_navBgV;
     
     float _startPointX;
@@ -100,7 +101,7 @@
     [btn addTarget:self action:@selector(showSelectView:) forControlEvents:UIControlEventTouchUpInside];
     
     NSArray *arT = @[@"测试1", @"测试2", @"测试3", @"测试4", @"测试5", @"测试6", @"测试7", @"测试8", @"测试9", @"测试10"];
-    _navScrollV = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width - btnW, MENU_HEIGHT)];
+    _navScrollV = [[TouchPropagatedScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width - btnW, MENU_HEIGHT)];
     [_navScrollV setShowsHorizontalScrollIndicator:NO];
     for (int i = 0; i < [arT count]; i++)
     {
