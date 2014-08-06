@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A7383D61991EDC8006D8184 /* TouchPropagatedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7383D51991EDC8006D8184 /* TouchPropagatedScrollView.m */; };
 		74D99E371991292900A1CC24 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 74D99E361991292900A1CC24 /* README.md */; };
 		74DBBD8E197AA77500615FCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DBBD8D197AA77500615FCE /* Foundation.framework */; };
 		74DBBD90197AA77500615FCE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DBBD8F197AA77500615FCE /* CoreGraphics.framework */; };
@@ -43,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A7383D41991EDC8006D8184 /* TouchPropagatedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchPropagatedScrollView.h; sourceTree = "<group>"; };
+		1A7383D51991EDC8006D8184 /* TouchPropagatedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchPropagatedScrollView.m; sourceTree = "<group>"; };
 		74D99E361991292900A1CC24 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 		74DBBD8A197AA77500615FCE /* NewsTwoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsTwoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74DBBD8D197AA77500615FCE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -140,6 +143,8 @@
 				74DBBD9D197AA77500615FCE /* AppDelegate.m */,
 				74DBBDD4197AB25B00615FCE /* QHMainGestureRecognizerViewController.h */,
 				74DBBDD5197AB25B00615FCE /* QHMainGestureRecognizerViewController.m */,
+				1A7383D41991EDC8006D8184 /* TouchPropagatedScrollView.h */,
+				1A7383D51991EDC8006D8184 /* TouchPropagatedScrollView.m */,
 				74DBBDC3197AB19C00615FCE /* LeftViewController.h */,
 				74DBBDC4197AB19C00615FCE /* LeftViewController.m */,
 				74DBBDC5197AB19C00615FCE /* MainAppViewController.h */,
@@ -304,6 +309,7 @@
 				74DBBD9A197AA77500615FCE /* main.m in Sources */,
 				74DBBDD6197AB25B00615FCE /* QHMainGestureRecognizerViewController.m in Sources */,
 				74DBBDC2197AB08400615FCE /* SliderViewController.m in Sources */,
+				1A7383D61991EDC8006D8184 /* TouchPropagatedScrollView.m in Sources */,
 				74DBBDD9197AB7CE00615FCE /* SubViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
