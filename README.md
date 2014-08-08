@@ -5,13 +5,15 @@ NewsTwoApp
 
 ---------------------------华丽丽的分割线------------------------------
 
-beta0.2
+beta 0.2
 
 1、添加了回收抽屉的接口
 
 2、增加下面的在左菜单跳转新页面时回收抽屉的API
 
-- (void)closeSideBarWithAnimate:(BOOL)bAnimate complete:(void(^)(BOOL finished))complete;
+－(void)closeSideBarWithAnimate:(BOOL)bAnimate complete:(void(^)(BOOL finished))complete;
+ 
+3、适配iOS8无法传递滑动事件到superview。（增加TouchPropagatedScrollView来解决）
 
 ---------------------------华丽丽的分割线------------------------------
 
